@@ -9,7 +9,7 @@ int get_edge(int* graph, int row, int column, int width) // width is always just
     return graph[row + column*width];
 }
 
-void set_edge_value(int* graph, int row, int column, int width, int edge_value)
+void set_edge_value(int* graph, int row, int column, int width, int edge_value) // same here, width is always just the number of edges
 {
     graph[row + column*width];
 }
