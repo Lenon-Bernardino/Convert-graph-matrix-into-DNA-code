@@ -66,7 +66,7 @@ int main()
                 {
                     matrix_representation += "[" + convert_to_str(edge_value) + ", ";
                 }
-                if(j != 0) // If it's not at the start nor at the end of a row then just add number normally
+                if(j != 0) // If it's neither at the start nor at the end of a row then just add number normally
                 {
                     matrix_representation += convert_to_str(edge_value) + ", ";
                 }
